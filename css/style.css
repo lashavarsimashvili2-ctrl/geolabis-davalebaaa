@@ -1,0 +1,337 @@
+header {
+  height: 104px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 180px;
+}
+
+.avatar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 260px;
+}
+
+li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 32px;
+}
+
+nav a {
+  color: #000;
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.active {
+  color: #7757e9;
+}
+
+main {
+  margin-top: 104px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #f6f6f6;
+}
+
+.card {
+  width: 390.667px;
+  height: 371px;
+  border-radius: 20px;
+  background-image: url("../img/card1.svg");
+  padding-top: 16px;
+  display: inline-block;
+  margin-bottom: 56px;
+}
+
+.card-1 {
+  margin-right: 20px;
+}
+
+.card-2 {
+  margin-right: 20px;
+  background-image: url(../img/card2.svg);
+}
+
+.card-3 {
+  background-image: url(../img/card3.svg);
+}
+
+.axali {
+  width: 107px;
+  height: 34px;
+  border-radius: 50px;
+  background: #7757e9;
+  box-shadow: 0 5.76px 28.8px -7.2px rgba(0, 0, 0, 0.14);
+  margin: 0 16px;
+  padding: 0 10px;
+}
+
+.axali:hover {
+  background: rgba(124, 95, 233, 1);
+  cursor: pointer;
+}
+
+.axali svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.axali p {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  font-family: "Gilroy GEO";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 33.12px; /* 194.824% */
+}
+
+.detail-div {
+  width: 100%;
+  height: 110px;
+  border-radius: 20px;
+  background: #fff;
+  margin-top: 212px;
+  padding: 16px 24px;
+}
+
+.detail-div h4 {
+  color: #000;
+  font-family: "Gilroy GEO";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.more-div svg {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.more-div p {
+  display: inline-block;
+  vertical-align: middle;
+  color: #000;
+  font-family: FiraGO;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.5;
+  margin-right: 180px;
+}
+
+.left-side {
+  width: 592px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+.right-side {
+  width: 592px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.banner-1 {
+  width: 100%;
+  height: 450px;
+  background-image: url(../img/banner1.svg);
+  background-color: lightgrey;
+  border-radius: 20px;
+  margin-bottom: 36px;
+  padding: 48px 24px 24px 48px;
+}
+
+h1 {
+  color: #7757e9;
+  font-family: "Gilroy GEO Heavy";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+h1 span {
+  font-size: 32px;
+}
+
+.more {
+  display: inline-block;
+  margin-top: 226px;
+  margin-left: 380px;
+  cursor: pointer;
+}
+
+.more p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.more:hover p {
+  color: rgba(255, 255, 255, 1);
+}
+.more:hover svg {
+  opacity: 1;
+}
+
+.more svg {
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+.more2 {
+  display: inline-block;
+  margin-top: 402px;
+  margin-left: 440px;
+  cursor: pointer;
+}
+
+.more2 p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.more2:hover p {
+  color: rgba(255, 255, 255, 1);
+}
+.more2:hover svg {
+  opacity: 1;
+}
+
+.more2 svg {
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+.more3 {
+  display: inline-block;
+  margin-top: 240px;
+  margin-left: 440px;
+  cursor: pointer;
+}
+
+.more3 p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.more3:hover p {
+  color: rgba(255, 255, 255, 1);
+}
+.more3:hover svg {
+  opacity: 1;
+}
+
+.more3 svg {
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+.banner-2 {
+  width: 100%;
+  height: 450px;
+  background-image: url(../img/banner2.svg);
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+.banner-3 {
+  width: 100%;
+  height: 288px;
+  background-image: url(../img/banner3.svg);
+  background-color: lightgrey;
+  border-radius: 20px;
+  margin-bottom: 36px;
+}
+
+.banner-4 {
+  width: 100%;
+  height: 288px;
+  background-image: url("../img/banner4.svg");
+  background-color: lightgray;
+  border-radius: 20px;
+  margin-bottom: 36px;
+}
+
+.banner-5 {
+  width: 100%;
+  height: 288px;
+  background-image: url("../img/banner5.svg");
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+.sticky {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background-color: white;
+  /* border: 2px solid black; */
+  box-shadow: 1px 1px 39px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 39px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 39px -5px rgba(0, 0, 0, 0.75);
+  padding: 18px 0 0 18px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+footer {
+  padding: 40px 0;
+}
+
+.logo2 {
+  margin-right: 910px;
+}
